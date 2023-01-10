@@ -23,6 +23,7 @@
     <link rel="shortcut icon" href="{{ asset('admin/images/favicon.png') }}" />
 
     @livewireStyles
+    @stack('styles')
 </head>
 
 <body>
@@ -58,6 +59,7 @@
     <script src="{{ asset('admin/js/dataTables.bootstrap4.js') }}"></script>
     <!-- End custom js for this page-->
     @livewireScripts
+    @stack('script')
 </body>
 
 </html>
